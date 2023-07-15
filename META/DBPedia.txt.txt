@@ -1,0 +1,6 @@
+The 0 th MMC:    motif size: 1   compute time is: 8661 ms 
+The 1 th MMC:    motif size: 1   compute time is: 9480 ms 
+The 2 th MMC:    motif size: 3   compute time is: 8880 ms 
+The 3 th MMC:    motif size: 1   compute time is: 8792 ms 
+The 4 th MMC:    motif size: 1   compute time is: 8601 ms 
+The 5 th MMC:    motif size: 2   compute time is: 179475 ms 

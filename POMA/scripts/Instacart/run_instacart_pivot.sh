@@ -1,0 +1,2 @@
+./motif_src -mmc -vf3 -graph /mnt/data/yingli/mclique/instacart/graph.txt -motif /mnt/data/yingli/mclique/instacart/motif_4_300.txt -output /mnt/data/yingli/mclique/instacart/results_new_POMAP -PIVOT 0 
+#remove pivot

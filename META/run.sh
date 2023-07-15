@@ -1,0 +1,1 @@
+./motif_src -mmc", "-vf3", "-graph" ,"/mnt/data/zxl/mclique_dataset/dblp4area-new/graph.txt", "-motif", "/mnt/data/zxl/mclique_dataset/dblp4area-new/motif_3_300.txt","-output", "mmcs.txt

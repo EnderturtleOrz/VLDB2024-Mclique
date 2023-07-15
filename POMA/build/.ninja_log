@@ -1,0 +1,22 @@
+# ninja log v5
+0	518	1673264032431858445	CMakeFiles/motif_src.dir/SetTrieNode.cpp.o	169dfd73dfeff1fb
+1	743	1673264032655861911	CMakeFiles/motif_src.dir/global-variable.cpp.o	a5d6a05d163c330b
+0	766	1673264032679862282	CMakeFiles/motif_src.dir/Graph.cpp.o	896d48ff501da27d
+1	1084	1673264032995867170	CMakeFiles/motif_src.dir/subgraph_match.cpp.o	71a1007af7b93a43
+1	1678	1673264033587876329	CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o	727383f15e0985b2
+0	2349	1673264034259886726	CMakeFiles/motif_src.dir/main.cpp.o	c4545c5f8d095059
+2349	2536	1673264034447889634	motif_src	bbe607c102ceb1b1
+1	2454	1673265273111174310	CMakeFiles/motif_src.dir/main.cpp.o	c4545c5f8d095059
+2454	2651	1673265273311177016	motif_src	bbe607c102ceb1b1
+1	480	1673266814248864419	CMakeFiles/motif_src.dir/SetTrieNode.cpp.o	22f3c44e67466817
+2	676	1673266814444867219	CMakeFiles/motif_src.dir/global-variable.cpp.o	e7eff203fc4324d8
+1	972	1673266814740871449	CMakeFiles/motif_src.dir/Graph.cpp.o	c00fba3daa737202
+1	1563	1673266815328879849	CMakeFiles/motif_src.dir/subgraph_match.cpp.o	f84c3fabb43ef384
+2	3852	1673266817616912539	CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o	a709a0a1ab4e8cff
+1	5715	1673266819480939171	CMakeFiles/motif_src.dir/main.cpp.o	928d6770ef1c7a80
+5715	5853	1673266819620941172	motif_src	9602a496bfc3d1f8
+1	3944	1673440058968887899	CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o	a709a0a1ab4e8cff
+1	5595	1673440060616913382	CMakeFiles/motif_src.dir/main.cpp.o	928d6770ef1c7a80
+5595	5743	1673440060768915732	motif_src	9602a496bfc3d1f8
+1	5542	1673440434342664000	CMakeFiles/motif_src.dir/main.cpp.o	928d6770ef1c7a80
+5542	5679	1673440434482666145	motif_src	9602a496bfc3d1f8

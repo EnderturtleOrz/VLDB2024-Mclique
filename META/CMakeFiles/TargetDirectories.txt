@@ -1,0 +1,3 @@
+/home/tianci/work/motif-ori/CMakeFiles/rebuild_cache.dir
+/home/tianci/work/motif-ori/CMakeFiles/edit_cache.dir
+/home/tianci/work/motif-ori/CMakeFiles/motif_src.dir
