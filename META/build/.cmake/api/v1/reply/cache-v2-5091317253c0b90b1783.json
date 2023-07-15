@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/xiaolun/work/motif-ori/build"
+			"value" : "/home/db/work/motif-ori/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -579,7 +579,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/xiaolun/work/motif-ori"
+			"value" : "/home/db/work/motif-ori"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1115,7 +1115,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xiaolun/work/motif-ori/build"
+			"value" : "/home/db/work/motif-ori/build"
 		},
 		{
 			"name" : "motif_src_SOURCE_DIR",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xiaolun/work/motif-ori"
+			"value" : "/home/db/work/motif-ori"
 		}
 	],
 	"kind" : "cache",

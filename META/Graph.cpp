@@ -1,7 +1,3 @@
-//
-// Created by Hujiafeng on 16/10/2017.
-//
-
 #include"Graph.h"
 #include"global-variable.h"
 

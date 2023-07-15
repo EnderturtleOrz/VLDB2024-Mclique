@@ -1,8 +1,5 @@
 /**
  * @file match.hpp
- * @author P. Foggia (pfoggia\@unisa.it)
- * @author V.Carletti (vcarletti\@unisa.it)
- * @date   December, 2014
  * @brief  Declaration of the match function.
  */
 

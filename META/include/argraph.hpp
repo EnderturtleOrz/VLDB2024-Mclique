@@ -1,8 +1,5 @@
 /**
  * @file   argraph.hpp
- * @author P. Foggia (pfoggia\@unisa.it)
- * @author V.Carletti (vcarletti\@unisa.it)
- * @date   December, 2014
  * @brief  Definition of a class representing an Attributed Relational Graph (ARG).
  */
 

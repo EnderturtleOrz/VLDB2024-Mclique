@@ -2,8 +2,6 @@
  * dict.h
  * A simple dictionary, not very efficient,
  * implemented with linked lists.
- * Author: P. Foggia
- * $Id: dict.h,v 1.2 1998/12/19 11:35:45 foggia Exp $
  ----------------------------------------------------*/
 
 /*----------------------------------------------------

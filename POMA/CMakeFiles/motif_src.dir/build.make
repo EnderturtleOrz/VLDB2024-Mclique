@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yingli/work/mclique_offical_paper_dominate
+CMAKE_SOURCE_DIR = /home/database/work/mclique_offical_paper_dominate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yingli/work/mclique_offical_paper_dominate
+CMAKE_BINARY_DIR = /home/database/work/mclique_offical_paper_dominate
 
 # Include any dependencies generated for this target.
 include CMakeFiles/motif_src.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/motif_src.dir/flags.make
 
 CMakeFiles/motif_src.dir/Graph.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/Graph.cpp.o: Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motif_src.dir/Graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/Graph.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motif_src.dir/Graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/Graph.cpp.o -c /home/database/work/mclique_offical_paper_dominate/Graph.cpp
 
 CMakeFiles/motif_src.dir/Graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/Graph.cpp > CMakeFiles/motif_src.dir/Graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/Graph.cpp > CMakeFiles/motif_src.dir/Graph.cpp.i
 
 CMakeFiles/motif_src.dir/Graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/Graph.cpp -o CMakeFiles/motif_src.dir/Graph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/Graph.cpp -o CMakeFiles/motif_src.dir/Graph.cpp.s
 
 CMakeFiles/motif_src.dir/main.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/motif_src.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/main.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/motif_src.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/main.cpp.o -c /home/database/work/mclique_offical_paper_dominate/main.cpp
 
 CMakeFiles/motif_src.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/main.cpp > CMakeFiles/motif_src.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/main.cpp > CMakeFiles/motif_src.dir/main.cpp.i
 
 CMakeFiles/motif_src.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/main.cpp -o CMakeFiles/motif_src.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/main.cpp -o CMakeFiles/motif_src.dir/main.cpp.s
 
 CMakeFiles/motif_src.dir/SetTrieNode.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/SetTrieNode.cpp.o: SetTrieNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/motif_src.dir/SetTrieNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/SetTrieNode.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/motif_src.dir/SetTrieNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/SetTrieNode.cpp.o -c /home/database/work/mclique_offical_paper_dominate/SetTrieNode.cpp
 
 CMakeFiles/motif_src.dir/SetTrieNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/SetTrieNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.cpp > CMakeFiles/motif_src.dir/SetTrieNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/SetTrieNode.cpp > CMakeFiles/motif_src.dir/SetTrieNode.cpp.i
 
 CMakeFiles/motif_src.dir/SetTrieNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/SetTrieNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.cpp -o CMakeFiles/motif_src.dir/SetTrieNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/SetTrieNode.cpp -o CMakeFiles/motif_src.dir/SetTrieNode.cpp.s
 
 CMakeFiles/motif_src.dir/subgraph_match.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/subgraph_match.cpp.o: subgraph_match.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/motif_src.dir/subgraph_match.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/subgraph_match.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/subgraph_match.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/motif_src.dir/subgraph_match.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/subgraph_match.cpp.o -c /home/database/work/mclique_offical_paper_dominate/subgraph_match.cpp
 
 CMakeFiles/motif_src.dir/subgraph_match.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/subgraph_match.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/subgraph_match.cpp > CMakeFiles/motif_src.dir/subgraph_match.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/subgraph_match.cpp > CMakeFiles/motif_src.dir/subgraph_match.cpp.i
 
 CMakeFiles/motif_src.dir/subgraph_match.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/subgraph_match.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/subgraph_match.cpp -o CMakeFiles/motif_src.dir/subgraph_match.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/subgraph_match.cpp -o CMakeFiles/motif_src.dir/subgraph_match.cpp.s
 
 CMakeFiles/motif_src.dir/small-graph.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/small-graph.cpp.o: small-graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/motif_src.dir/small-graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/small-graph.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/small-graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/motif_src.dir/small-graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/small-graph.cpp.o -c /home/database/work/mclique_offical_paper_dominate/small-graph.cpp
 
 CMakeFiles/motif_src.dir/small-graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/small-graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/small-graph.cpp > CMakeFiles/motif_src.dir/small-graph.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/small-graph.cpp > CMakeFiles/motif_src.dir/small-graph.cpp.i
 
 CMakeFiles/motif_src.dir/small-graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/small-graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/small-graph.cpp -o CMakeFiles/motif_src.dir/small-graph.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/small-graph.cpp -o CMakeFiles/motif_src.dir/small-graph.cpp.s
 
 CMakeFiles/motif_src.dir/global-variable.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/global-variable.cpp.o: global-variable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/motif_src.dir/global-variable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/global-variable.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/global-variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/motif_src.dir/global-variable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/global-variable.cpp.o -c /home/database/work/mclique_offical_paper_dominate/global-variable.cpp
 
 CMakeFiles/motif_src.dir/global-variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/global-variable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/global-variable.cpp > CMakeFiles/motif_src.dir/global-variable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/global-variable.cpp > CMakeFiles/motif_src.dir/global-variable.cpp.i
 
 CMakeFiles/motif_src.dir/global-variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/global-variable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/global-variable.cpp -o CMakeFiles/motif_src.dir/global-variable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/global-variable.cpp -o CMakeFiles/motif_src.dir/global-variable.cpp.s
 
 CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o: CMakeFiles/motif_src.dir/flags.make
 CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o: maximal-motif-clique.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o -c /home/yingli/work/mclique_offical_paper_dominate/maximal-motif-clique.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o -c /home/database/work/mclique_offical_paper_dominate/maximal-motif-clique.cpp
 
 CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yingli/work/mclique_offical_paper_dominate/maximal-motif-clique.cpp > CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/database/work/mclique_offical_paper_dominate/maximal-motif-clique.cpp > CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.i
 
 CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yingli/work/mclique_offical_paper_dominate/maximal-motif-clique.cpp -o CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/database/work/mclique_offical_paper_dominate/maximal-motif-clique.cpp -o CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.s
 
 # Object files for target motif_src
 motif_src_OBJECTS = \
@@ -170,7 +170,7 @@ motif_src: CMakeFiles/motif_src.dir/global-variable.cpp.o
 motif_src: CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o
 motif_src: CMakeFiles/motif_src.dir/build.make
 motif_src: CMakeFiles/motif_src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable motif_src"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/database/work/mclique_offical_paper_dominate/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable motif_src"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motif_src.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/motif_src.dir/clean:
 .PHONY : CMakeFiles/motif_src.dir/clean
 
 CMakeFiles/motif_src.dir/depend:
-	cd /home/yingli/work/mclique_offical_paper_dominate && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yingli/work/mclique_offical_paper_dominate /home/yingli/work/mclique_offical_paper_dominate /home/yingli/work/mclique_offical_paper_dominate /home/yingli/work/mclique_offical_paper_dominate /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/motif_src.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/database/work/mclique_offical_paper_dominate && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/database/work/mclique_offical_paper_dominate /home/database/work/mclique_offical_paper_dominate /home/database/work/mclique_offical_paper_dominate /home/database/work/mclique_offical_paper_dominate /home/database/work/mclique_offical_paper_dominate/CMakeFiles/motif_src.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motif_src.dir/depend
 

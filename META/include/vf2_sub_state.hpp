@@ -4,8 +4,6 @@
  * Definition of a class representing a state of the matching
  * process between two ARGs.
  * See: argraph.h state.h
- *
- * Author: P. Foggia
  *-----------------------------------------------------------------*/
 #ifndef VF2_SUB_STATE_H
 #define VF2_SUB_STATE_H

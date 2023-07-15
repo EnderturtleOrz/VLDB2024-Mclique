@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xiaolun/work/motif-ori/build && /usr/bin/cmake -S/home/xiaolun/work/motif-ori -B/home/xiaolun/work/motif-ori/build
+  COMMAND = cd /home/db/work/motif-ori/build && /usr/bin/cmake -S/home/db/work/motif-ori -B/home/db/work/motif-ori/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -46,7 +46,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xiaolun/work/motif-ori/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/db/work/motif-ori/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -141,7 +141,7 @@ build motif_src: CXX_EXECUTABLE_LINKER__motif_src CMakeFiles/motif_src.dir/Graph
 # =============================================================================
 
 #############################################
-# Folder: /home/xiaolun/work/motif-ori/build
+# Folder: /home/db/work/motif-ori/build
 
 build all: phony motif_src
 

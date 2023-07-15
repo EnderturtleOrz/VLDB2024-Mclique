@@ -1,7 +1,7 @@
 CMakeFiles/motif_src.dir/SetTrieNode.cpp.o: \
- /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.cpp \
+ /home/database/work/mclique_offical_paper_dominate/SetTrieNode.cpp \
  /usr/include/stdc-predef.h \
- /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.h \
+ /home/database/work/mclique_offical_paper_dominate/SetTrieNode.h \
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_tree.h \
  /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \

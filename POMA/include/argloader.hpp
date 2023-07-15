@@ -1,8 +1,5 @@
 /**
  * @file   argloader.hpp
- * @author P. Foggia (pfoggia\@unisa.it)
- * @author V.Carletti (vcarletti\@unisa.it)
- * @date   December, 2014
  * @see argraph.hpp
  * @brief  Definition of a simple ARG loader which allows graph edit operations.
  * @details DESCRIPTION OF THE BINARY FILE FORMAT \n

@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 5.15.0-48-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/3.26.1/CompilerIdC/a.out
+        /home/database/work/mclique_offical_paper_dominate/CMakeFiles/3.26.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -50,19 +50,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/3.26.1/CompilerIdCXX/a.out
+        /home/database/work/mclique_offical_paper_dominate/CMakeFiles/3.26.1/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK"
-      binary: "/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK"
+      source: "/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK"
+      binary: "/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,12 +71,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK
+        Change Dir: /home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK
         
-        Run Build Command(s):/home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16cb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_16cb7.dir/build.make CMakeFiles/cmTC_16cb7.dir/build
-        make[1]: Entering directory '/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK'
+        Run Build Command(s):/home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16cb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_16cb7.dir/build.make CMakeFiles/cmTC_16cb7.dir/build
+        make[1]: Entering directory '/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK'
         Building C object CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -c /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -c /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -86,7 +86,7 @@ events:
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
         COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrRnXxf.s
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrRnXxf.s
         GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -113,7 +113,7 @@ events:
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
         Linking C executable cmTC_16cb7
-        /home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16cb7.dir/link.txt --verbose=1
+        /home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16cb7.dir/link.txt --verbose=1
         /usr/bin/cc  -v CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -o cmTC_16cb7 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
@@ -129,14 +129,14 @@ events:
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16cb7' '-mtune=generic' '-march=x86-64'
          /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmwZMFC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_16cb7 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16cb7' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK'
+        make[1]: Leaving directory '/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -157,18 +157,18 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK]
+        ignore line: [Change Dir: /home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16cb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_16cb7.dir/build.make CMakeFiles/cmTC_16cb7.dir/build]
-        ignore line: [make[1]: Entering directory '/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK']
+        ignore line: [Run Build Command(s):/home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16cb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_16cb7.dir/build.make CMakeFiles/cmTC_16cb7.dir/build]
+        ignore line: [make[1]: Entering directory '/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-EUgrAK']
         ignore line: [Building C object CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -c /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -c /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -178,7 +178,7 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
         ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrRnXxf.s]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccrRnXxf.s]
         ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -205,7 +205,7 @@ events:
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
         ignore line: [Linking C executable cmTC_16cb7]
-        ignore line: [/home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16cb7.dir/link.txt --verbose=1]
+        ignore line: [/home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16cb7.dir/link.txt --verbose=1]
         ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_16cb7.dir/CMakeCCompilerABI.c.o -o cmTC_16cb7 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
@@ -288,14 +288,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI"
-      binary: "/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI"
+      source: "/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI"
+      binary: "/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -304,12 +304,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI
+        Change Dir: /home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI
         
-        Run Build Command(s):/home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6603a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6603a.dir/build.make CMakeFiles/cmTC_6603a.dir/build
-        make[1]: Entering directory '/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI'
+        Run Build Command(s):/home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6603a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6603a.dir/build.make CMakeFiles/cmTC_6603a.dir/build
+        make[1]: Entering directory '/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI'
         Building CXX object CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -c /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -c /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -319,7 +319,7 @@ events:
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
         COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJNXSwd.s
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJNXSwd.s
         GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -350,7 +350,7 @@ events:
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
         Linking CXX executable cmTC_6603a
-        /home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6603a.dir/link.txt --verbose=1
+        /home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6603a.dir/link.txt --verbose=1
         /usr/bin/c++  -v CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6603a 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
@@ -366,14 +366,14 @@ events:
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6603a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
          /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXt2Z0D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6603a /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6603a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        make[1]: Leaving directory '/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI'
+        make[1]: Leaving directory '/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -400,18 +400,18 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI]
+        ignore line: [Change Dir: /home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6603a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6603a.dir/build.make CMakeFiles/cmTC_6603a.dir/build]
-        ignore line: [make[1]: Entering directory '/home/yingli/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI']
+        ignore line: [Run Build Command(s):/home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6603a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6603a.dir/build.make CMakeFiles/cmTC_6603a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/database/work/mclique_offical_paper_dominate/CMakeFiles/CMakeScratch/TryCompile-FiTvpI']
         ignore line: [Building CXX object CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -c /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -c /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -421,7 +421,7 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
         ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/yingli/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJNXSwd.s]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/database/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJNXSwd.s]
         ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -452,7 +452,7 @@ events:
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
         ignore line: [Linking CXX executable cmTC_6603a]
-        ignore line: [/home/yingli/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6603a.dir/link.txt --verbose=1]
+        ignore line: [/home/database/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6603a.dir/link.txt --verbose=1]
         ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_6603a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6603a ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]

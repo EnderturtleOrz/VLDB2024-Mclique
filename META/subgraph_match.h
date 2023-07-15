@@ -1,10 +1,3 @@
-/* 
- * File:   subgraph_match.h
- * Author: hjf
- *
- * Created on July 15, 2017, 11:00 PM
- */
-
 #ifndef SUBGRAPH_MATCH_H
 #define SUBGRAPH_MATCH_H
 

@@ -1,7 +1,3 @@
-//
-// Created by Hujiafeng on 15/10/2017.
-//
-
 #ifndef MOTIF_SRC_MAXIMAL_MOTIF_CLIQUE_H
 #define MOTIF_SRC_MAXIMAL_MOTIF_CLIQUE_H
 

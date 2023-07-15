@@ -1,4 +1,4 @@
-# Install script for directory: /home/xiaolun/work/motif-src
+# Install script for directory: /home/db/work/motif-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xiaolun/work/motif-src/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/db/work/motif-src/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

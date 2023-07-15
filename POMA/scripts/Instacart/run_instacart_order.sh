@@ -1,2 +1,2 @@
-./motif_src -mmc -vf3 -graph /mnt/data/yingli/mclique/instacart/graph.txt -motif /mnt/data/yingli/mclique/instacart/motif_4_300.txt -output /mnt/data/yingli/mclique/instacart/results_new_POMAO -ORDER 0 
+./motif_src -mmc -vf3 -graph /mnt/data/database/mclique/instacart/graph.txt -motif /mnt/data/database/mclique/instacart/motif_4_300.txt -output /mnt/data/database/mclique/instacart/results_new_POMAO -ORDER 0 
 #remove order

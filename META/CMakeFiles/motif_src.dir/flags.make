@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tianci/work/motif-ori/include 
+CXX_INCLUDES = -I/home/code/work/motif-ori/include 
 

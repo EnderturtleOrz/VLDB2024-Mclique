@@ -3,8 +3,6 @@
  * Header of error.cc
  * Error handling functions
  *
- * Author: P. Foggia
- * $Id: error.h,v 1.2 1998/12/12 12:17:32 foggia Exp $
  *--------------------------------------------------*/
 
 /*----------------------------------------------------

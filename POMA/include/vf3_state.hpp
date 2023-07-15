@@ -1,10 +1,4 @@
-//
-//  vf3_sub_state.hpp
-//  VF2Plus
-//
-//  Created by Vincenzo Carletti on 12/11/14.
-//  Copyright (c) 2014 Vincenzo Carletti. All rights reserved.
-//
+
 
 #ifndef VF3_STATE_HPP
 #define VF3_STATE_HPP

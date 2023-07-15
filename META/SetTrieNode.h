@@ -1,10 +1,3 @@
-/* 
- * File:   SetTrieNode.h
- * Author: hjf
- *
- * Created on June 17, 2017, 3:06 PM
- */
-
 #ifndef SETTRIENODE_H
 #define    SETTRIENODE_H
 

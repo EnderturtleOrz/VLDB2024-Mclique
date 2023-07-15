@@ -1,8 +1,5 @@
 /**
  * @file   argedit.hpp
- * @author P. Foggia (pfoggia\@unisa.it)
- * @author V.Carletti (vcarletti\@unisa.it)
- * @date   December, 2014
  * @brief  Definition of a simple ARG loader which allows graph edit operations
  * @see argraph.hpp
  */

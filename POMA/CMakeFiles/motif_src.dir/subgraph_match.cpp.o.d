@@ -1,8 +1,8 @@
 CMakeFiles/motif_src.dir/subgraph_match.cpp.o: \
- /home/yingli/work/mclique_offical_paper_dominate/subgraph_match.cpp \
+ /home/database/work/mclique_offical_paper_dominate/subgraph_match.cpp \
  /usr/include/stdc-predef.h \
- /home/yingli/work/mclique_offical_paper_dominate/subgraph_match.h \
- /home/yingli/work/mclique_offical_paper_dominate/Graph.h \
+ /home/database/work/mclique_offical_paper_dominate/subgraph_match.h \
+ /home/database/work/mclique_offical_paper_dominate/Graph.h \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -161,10 +161,10 @@ CMakeFiles/motif_src.dir/subgraph_match.cpp.o: \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/uniform_int_dist.h /usr/include/c++/9/limits \
  /usr/include/memory.h /usr/include/string.h /usr/include/strings.h \
- /home/yingli/work/mclique_offical_paper_dominate/maximal-motif-clique.h \
- /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.h \
+ /home/database/work/mclique_offical_paper_dominate/maximal-motif-clique.h \
+ /home/database/work/mclique_offical_paper_dominate/SetTrieNode.h \
  /usr/include/c++/9/cstddef \
- /home/yingli/work/mclique_offical_paper_dominate/global-variable.h \
+ /home/database/work/mclique_offical_paper_dominate/global-variable.h \
  /usr/include/c++/9/unordered_set /usr/include/c++/9/bits/hashtable.h \
  /usr/include/c++/9/bits/hashtable_policy.h \
  /usr/include/c++/9/bits/unordered_set.h /usr/include/c++/9/unordered_map \

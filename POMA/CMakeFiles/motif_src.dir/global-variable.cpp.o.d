@@ -1,8 +1,8 @@
 CMakeFiles/motif_src.dir/global-variable.cpp.o: \
- /home/yingli/work/mclique_offical_paper_dominate/global-variable.cpp \
+ /home/database/work/mclique_offical_paper_dominate/global-variable.cpp \
  /usr/include/stdc-predef.h \
- /home/yingli/work/mclique_offical_paper_dominate/global-variable.h \
- /home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.h \
+ /home/database/work/mclique_offical_paper_dominate/global-variable.h \
+ /home/database/work/mclique_offical_paper_dominate/SetTrieNode.h \
  /usr/include/c++/9/set /usr/include/c++/9/bits/stl_tree.h \
  /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -137,7 +137,7 @@ CMakeFiles/motif_src.dir/global-variable.cpp.o: \
  /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
- /home/yingli/work/mclique_offical_paper_dominate/Graph.h \
+ /home/database/work/mclique_offical_paper_dominate/Graph.h \
  /usr/include/c++/9/iostream /usr/include/c++/9/ostream \
  /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tianci/work/motif-ori/Graph.h
+/home/code/work/motif-ori/Graph.h
 iostream
 -
 fstream
@@ -18,11 +18,11 @@ set
 vector
 -
 assert.h
-/home/tianci/work/motif-ori/assert.h
+/home/code/work/motif-ori/assert.h
 cstdlib
 -
 
-/home/tianci/work/motif-ori/SetTrieNode.h
+/home/code/work/motif-ori/SetTrieNode.h
 set
 -
 map
@@ -30,9 +30,9 @@ map
 cstddef
 -
 
-/home/tianci/work/motif-ori/global-variable.h
+/home/code/work/motif-ori/global-variable.h
 SetTrieNode.h
-/home/tianci/work/motif-ori/SetTrieNode.h
+/home/code/work/motif-ori/SetTrieNode.h
 vector
 -
 set
@@ -40,17 +40,17 @@ set
 map
 -
 Graph.h
-/home/tianci/work/motif-ori/Graph.h
+/home/code/work/motif-ori/Graph.h
 
-/home/tianci/work/motif-ori/small-graph.cpp
+/home/code/work/motif-ori/small-graph.cpp
 Graph.h
-/home/tianci/work/motif-ori/Graph.h
+/home/code/work/motif-ori/Graph.h
 global-variable.h
-/home/tianci/work/motif-ori/global-variable.h
+/home/code/work/motif-ori/global-variable.h
 small-graph.h
-/home/tianci/work/motif-ori/small-graph.h
+/home/code/work/motif-ori/small-graph.h
 map
 -
 
-/home/tianci/work/motif-ori/small-graph.h
+/home/code/work/motif-ori/small-graph.h
 

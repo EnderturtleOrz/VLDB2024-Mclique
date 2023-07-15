@@ -1,2 +1,2 @@
-./motif_src -mmc -vf3 -graph /mnt/yingli/mclique/wikikg90m-v2/graph_new.txt -motif /mnt/yingli/mclique/wikikg90m-v2/motif_3_100.txt -output /mnt/yingli/mclique/wikikg90m-v2/results_base_3.txt
+./motif_src -mmc -vf3 -graph /mnt/database/mclique/wikikg90m-v2/graph_new.txt -motif /mnt/database/mclique/wikikg90m-v2/motif_3_100.txt -output /mnt/database/mclique/wikikg90m-v2/results_base_3.txt
 #bash scripts/run_wiki.sh

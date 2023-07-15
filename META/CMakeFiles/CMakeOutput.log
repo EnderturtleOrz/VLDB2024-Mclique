@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/xiaolun/work/motif-ori/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/db/work/motif-ori/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,27 +23,27 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/xiaolun/work/motif-ori/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/db/work/motif-ori/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_0e092/fast && /usr/bin/make -f CMakeFiles/cmTC_0e092.dir/build.make CMakeFiles/cmTC_0e092.dir/build
-make[1]: Entering directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_0e092.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0e092.dir/testCCompiler.c.o   -c /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/cc    -o CMakeFiles/cmTC_0e092.dir/testCCompiler.c.o   -c /home/db/work/motif-ori/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTC_0e092
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e092.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_0e092.dir/testCCompiler.c.o  -o cmTC_0e092 
-make[1]: Leaving directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_e2d07/fast && /usr/bin/make -f CMakeFiles/cmTC_e2d07.dir/build.make CMakeFiles/cmTC_e2d07.dir/build
-make[1]: Entering directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_e2d07.dir/CMakeCCompilerABI.c.o
 /usr/bin/cc   -v -o CMakeFiles/cmTC_e2d07.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
@@ -98,7 +98,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2d07' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccERBw4o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e2d07 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e2d07.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e2d07' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
@@ -119,10 +119,10 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/db/work/motif-ori/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_e2d07/fast && /usr/bin/make -f CMakeFiles/cmTC_e2d07.dir/build.make CMakeFiles/cmTC_e2d07.dir/build]
-  ignore line: [make[1]: Entering directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_e2d07.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e2d07.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
@@ -238,24 +238,24 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_125fc/fast && /usr/bin/make -f CMakeFiles/cmTC_125fc.dir/build.make CMakeFiles/cmTC_125fc.dir/build
-make[1]: Entering directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_125fc.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_125fc.dir/testCXXCompiler.cxx.o -c /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/c++     -o CMakeFiles/cmTC_125fc.dir/testCXXCompiler.cxx.o -c /home/db/work/motif-ori/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_125fc
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_125fc.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_125fc.dir/testCXXCompiler.cxx.o  -o cmTC_125fc 
-make[1]: Leaving directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_009b0/fast && /usr/bin/make -f CMakeFiles/cmTC_009b0.dir/build.make CMakeFiles/cmTC_009b0.dir/build
-make[1]: Entering directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_009b0.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++    -v -o CMakeFiles/cmTC_009b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -314,7 +314,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_009b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB25YAo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_009b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_009b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_009b0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
@@ -341,10 +341,10 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/db/work/motif-ori/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_009b0/fast && /usr/bin/make -f CMakeFiles/cmTC_009b0.dir/build.make CMakeFiles/cmTC_009b0.dir/build]
-  ignore line: [make[1]: Entering directory '/home/xiaolun/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/db/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_009b0.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_009b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
@@ -471,7 +471,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/yingli/work/motif-ori/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/database/work/motif-ori/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -484,27 +484,27 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/yingli/work/motif-ori/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/database/work/motif-ori/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/database/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_93237/fast && /usr/bin/make -f CMakeFiles/cmTC_93237.dir/build.make CMakeFiles/cmTC_93237.dir/build
-make[1]: Entering directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_93237.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_93237.dir/testCCompiler.c.o   -c /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/cc    -o CMakeFiles/cmTC_93237.dir/testCCompiler.c.o   -c /home/database/work/motif-ori/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTC_93237
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93237.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_93237.dir/testCCompiler.c.o  -o cmTC_93237 
-make[1]: Leaving directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/database/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_5e1a5/fast && /usr/bin/make -f CMakeFiles/cmTC_5e1a5.dir/build.make CMakeFiles/cmTC_5e1a5.dir/build
-make[1]: Entering directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_5e1a5.dir/CMakeCCompilerABI.c.o
 /usr/bin/cc   -v -o CMakeFiles/cmTC_5e1a5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
@@ -559,7 +559,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5e1a5' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB6qjrh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5e1a5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_5e1a5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5e1a5' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
@@ -580,10 +580,10 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/database/work/motif-ori/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_5e1a5/fast && /usr/bin/make -f CMakeFiles/cmTC_5e1a5.dir/build.make CMakeFiles/cmTC_5e1a5.dir/build]
-  ignore line: [make[1]: Entering directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_5e1a5.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_5e1a5.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
@@ -699,24 +699,24 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/database/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_fc188/fast && /usr/bin/make -f CMakeFiles/cmTC_fc188.dir/build.make CMakeFiles/cmTC_fc188.dir/build
-make[1]: Entering directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_fc188.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_fc188.dir/testCXXCompiler.cxx.o -c /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/c++     -o CMakeFiles/cmTC_fc188.dir/testCXXCompiler.cxx.o -c /home/database/work/motif-ori/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_fc188
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc188.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_fc188.dir/testCXXCompiler.cxx.o  -o cmTC_fc188 
-make[1]: Leaving directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/database/work/motif-ori/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_c8602/fast && /usr/bin/make -f CMakeFiles/cmTC_c8602.dir/build.make CMakeFiles/cmTC_c8602.dir/build
-make[1]: Entering directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_c8602.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++    -v -o CMakeFiles/cmTC_c8602.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -775,7 +775,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8602' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccosT07d.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8602 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c8602.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8602' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
@@ -802,10 +802,10 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yingli/work/motif-ori/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/database/work/motif-ori/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_c8602/fast && /usr/bin/make -f CMakeFiles/cmTC_c8602.dir/build.make CMakeFiles/cmTC_c8602.dir/build]
-  ignore line: [make[1]: Entering directory '/home/yingli/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/database/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_c8602.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_c8602.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
@@ -932,7 +932,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/tianci/work/motif-ori/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/code/work/motif-ori/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -945,30 +945,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/tianci/work/motif-ori/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/code/work/motif-ori/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/code/work/motif-ori/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_251f6/fast && make[1]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_251f6/fast && make[1]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 /usr/bin/make -f CMakeFiles/cmTC_251f6.dir/build.make CMakeFiles/cmTC_251f6.dir/build
-make[2]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_251f6.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_251f6.dir/testCCompiler.c.o   -c /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/cc    -o CMakeFiles/cmTC_251f6.dir/testCCompiler.c.o   -c /home/code/work/motif-ori/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTC_251f6
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_251f6.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_251f6.dir/testCCompiler.c.o  -o cmTC_251f6 
-make[2]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/code/work/motif-ori/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d6b41/fast && make[1]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_d6b41/fast && make[1]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 /usr/bin/make -f CMakeFiles/cmTC_d6b41.dir/build.make CMakeFiles/cmTC_d6b41.dir/build
-make[2]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_d6b41.dir/CMakeCCompilerABI.c.o
 /usr/bin/cc   -v -o CMakeFiles/cmTC_d6b41.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
@@ -1023,8 +1023,8 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6b41' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpIpaJx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d6b41 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d6b41.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6b41' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
@@ -1045,11 +1045,11 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/code/work/motif-ori/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d6b41/fast && make[1]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d6b41/fast && make[1]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d6b41.dir/build.make CMakeFiles/cmTC_d6b41.dir/build]
-  ignore line: [make[2]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [make[2]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_d6b41.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d6b41.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
@@ -1165,27 +1165,27 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/code/work/motif-ori/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0ae26/fast && make[1]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_0ae26/fast && make[1]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 /usr/bin/make -f CMakeFiles/cmTC_0ae26.dir/build.make CMakeFiles/cmTC_0ae26.dir/build
-make[2]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_0ae26.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_0ae26.dir/testCXXCompiler.cxx.o -c /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/c++     -o CMakeFiles/cmTC_0ae26.dir/testCXXCompiler.cxx.o -c /home/code/work/motif-ori/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_0ae26
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ae26.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_0ae26.dir/testCXXCompiler.cxx.o  -o cmTC_0ae26 
-make[2]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp
+Change Dir: /home/code/work/motif-ori/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_45c16/fast && make[1]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_45c16/fast && make[1]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 /usr/bin/make -f CMakeFiles/cmTC_45c16.dir/build.make CMakeFiles/cmTC_45c16.dir/build
-make[2]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_45c16.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++    -v -o CMakeFiles/cmTC_45c16.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -1244,8 +1244,8 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45c16' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cckMkhPt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_45c16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_45c16.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45c16' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp'
 
 
 
@@ -1272,11 +1272,11 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tianci/work/motif-ori/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/code/work/motif-ori/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_45c16/fast && make[1]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_45c16/fast && make[1]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/make -f CMakeFiles/cmTC_45c16.dir/build.make CMakeFiles/cmTC_45c16.dir/build]
-  ignore line: [make[2]: Entering directory '/home/tianci/work/motif-ori/CMakeFiles/CMakeTmp']
+  ignore line: [make[2]: Entering directory '/home/code/work/motif-ori/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_45c16.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_45c16.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]

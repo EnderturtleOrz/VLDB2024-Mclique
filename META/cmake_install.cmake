@@ -1,4 +1,4 @@
-# Install script for directory: /home/tianci/work/motif-ori
+# Install script for directory: /home/code/work/motif-ori
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tianci/work/motif-ori/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/code/work/motif-ori/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

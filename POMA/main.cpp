@@ -1,11 +1,3 @@
-/*
- * File:   main.cpp
- * Author: zyl
- *
- *
- *
- */
-
 #include <cstdio>
 #include <cstring>
 #include "SetTrieNode.h"

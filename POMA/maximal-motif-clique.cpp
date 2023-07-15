@@ -1336,7 +1336,7 @@ void DFSMaximal_new(map<int, map<int, set<int>>> &label2adj, map<int, set<int>> 
 
         // For debug only!
         // Print(current_node_set);
-        // string output_path = "/home/yingli/work/mclique_offical_paper_dominate/output3.txt";
+        // string output_path = "/home/database/work/mclique_offical_paper_dominate/output3.txt";
         // PrintClique(initial_id, current_node_set, output_path + ".txt");
 
         // cout<<"result size: "<< maximal_motif_cliques.size()<<endl;

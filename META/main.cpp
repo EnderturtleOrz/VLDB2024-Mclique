@@ -1,11 +1,3 @@
-/*
- * File:   main.cpp
- * Author: hjf
- *
- * Created on April 28, 2017, 4:19 PM
- * Last updated on July 15, 2017
- */
-
 #include <cstdio>
 #include <cstring>
 #include "SetTrieNode.h"

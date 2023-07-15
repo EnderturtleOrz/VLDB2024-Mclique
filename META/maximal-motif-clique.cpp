@@ -1,6 +1,3 @@
-//
-// Created by Hujiafeng on 15/10/2017.
-//
 #include "maximal-motif-clique.h"
 #include <sys/time.h>
 

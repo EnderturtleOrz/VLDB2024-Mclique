@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/xiaolun/work/motif-ori/build",
-		"source" : "/home/xiaolun/work/motif-ori"
+		"build" : "/home/db/work/motif-ori/build",
+		"source" : "/home/db/work/motif-ori"
 	},
 	"version" : 
 	{

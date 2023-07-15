@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yingli/work/mclique_offical_paper_dominate/Graph.h
+/home/database/work/mclique_offical_paper_dominate/Graph.h
 iostream
 -
 fstream
@@ -18,11 +18,11 @@ set
 vector
 -
 assert.h
-/home/yingli/work/mclique_offical_paper_dominate/assert.h
+/home/database/work/mclique_offical_paper_dominate/assert.h
 cstdlib
 -
 
-/home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.h
+/home/database/work/mclique_offical_paper_dominate/SetTrieNode.h
 set
 -
 map
@@ -30,9 +30,9 @@ map
 cstddef
 -
 
-/home/yingli/work/mclique_offical_paper_dominate/global-variable.h
+/home/database/work/mclique_offical_paper_dominate/global-variable.h
 SetTrieNode.h
-/home/yingli/work/mclique_offical_paper_dominate/SetTrieNode.h
+/home/database/work/mclique_offical_paper_dominate/SetTrieNode.h
 vector
 -
 set
@@ -40,19 +40,19 @@ set
 map
 -
 Graph.h
-/home/yingli/work/mclique_offical_paper_dominate/Graph.h
+/home/database/work/mclique_offical_paper_dominate/Graph.h
 unordered_set
 -
 
-/home/yingli/work/mclique_offical_paper_dominate/small-graph.cpp
+/home/database/work/mclique_offical_paper_dominate/small-graph.cpp
 Graph.h
-/home/yingli/work/mclique_offical_paper_dominate/Graph.h
+/home/database/work/mclique_offical_paper_dominate/Graph.h
 global-variable.h
-/home/yingli/work/mclique_offical_paper_dominate/global-variable.h
+/home/database/work/mclique_offical_paper_dominate/global-variable.h
 small-graph.h
-/home/yingli/work/mclique_offical_paper_dominate/small-graph.h
+/home/database/work/mclique_offical_paper_dominate/small-graph.h
 map
 -
 
-/home/yingli/work/mclique_offical_paper_dominate/small-graph.h
+/home/database/work/mclique_offical_paper_dominate/small-graph.h
 

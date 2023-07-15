@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/xiaolun/work/motif-src/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/db/work/motif-src/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/g++ 
@@ -23,10 +23,10 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/xiaolun/work/motif-src/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/db/work/motif-src/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/xiaolun/work/motif-src/build/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-src/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_85c1e && [1/2] Building C object CMakeFiles/cmTC_85c1e.dir/testCCompiler.c.o
 [2/2] Linking C executable cmTC_85c1e
@@ -34,7 +34,7 @@ Run Build Command(s):/usr/bin/ninja cmTC_85c1e && [1/2] Building C object CMakeF
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/xiaolun/work/motif-src/build/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-src/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_f3623 && [1/2] Building C object CMakeFiles/cmTC_f3623.dir/CMakeCCompilerABI.c.o
 Using built-in specs.
@@ -107,7 +107,7 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/xiaolun/work/motif-src/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/db/work/motif-src/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_f3623 && [1/2] Building C object CMakeFiles/cmTC_f3623.dir/CMakeCCompilerABI.c.o]
   ignore line: [Using built-in specs.]
@@ -221,7 +221,7 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/xiaolun/work/motif-src/build/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-src/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_e76b6 && [1/2] Building CXX object CMakeFiles/cmTC_e76b6.dir/testCXXCompiler.cxx.o
 [2/2] Linking CXX executable cmTC_e76b6
@@ -229,7 +229,7 @@ Run Build Command(s):/usr/bin/ninja cmTC_e76b6 && [1/2] Building CXX object CMak
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/xiaolun/work/motif-src/build/CMakeFiles/CMakeTmp
+Change Dir: /home/db/work/motif-src/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_98df6 && [1/2] Building CXX object CMakeFiles/cmTC_98df6.dir/CMakeCXXCompilerABI.cpp.o
 Using built-in specs.
@@ -312,7 +312,7 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/xiaolun/work/motif-src/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/db/work/motif-src/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_98df6 && [1/2] Building CXX object CMakeFiles/cmTC_98df6.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Using built-in specs.]

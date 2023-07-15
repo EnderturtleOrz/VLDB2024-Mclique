@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yingli/work/mclique_offical_paper_dominate/include 
+CXX_INCLUDES = -I/home/database/work/mclique_offical_paper_dominate/include 
 

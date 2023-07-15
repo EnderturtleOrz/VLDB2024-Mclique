@@ -135,8 +135,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/xiaolun/work/motif-src/build",
-		"source" : "/home/xiaolun/work/motif-src"
+		"build" : "/home/db/work/motif-src/build",
+		"source" : "/home/db/work/motif-src"
 	},
 	"version" : 
 	{
