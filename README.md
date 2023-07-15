@@ -51,7 +51,8 @@ type_1, type_2, type_3, ..., type_n
 
 ### C. Run Code
 
-> You run the shell scripts like `xxx.sh` under META/scripts and POMA/scripts for the five datasets.
+> You can run the shell scripts like `xxx.sh` under META/scripts and POMA/scripts for the five datasets.
+>
 > You may need to modify the paths in the shell scripts to meet the corresponding folders.
 
 Such as you can just run `bash run_dblp.sh` to run our POMA algorithm for the dblp dataset.
