@@ -41,17 +41,18 @@ The data format is:
 
 ```
 n,m
-id1, id2
-id3, id4
+id_1, id_2
+id_3, id_4
 ....
-type1, type2, type3, ..., typen
+type_1, type_2, type_3, ..., type_n
 ```
 
 
 
 ### C. Run Code
 
-> You can use the `xxx.sh` to run the all algorithms for the five datasets
+> You run the shell scripts like `xxx.sh` under META/scripts and POMA/scripts for the five datasets.
+> You may need to modify the paths in the shell scripts to meet the corresponding folders.
 
 Such as you can just run `bash run_dblp.sh` to run our POMA algorithm for the dblp dataset.
 
