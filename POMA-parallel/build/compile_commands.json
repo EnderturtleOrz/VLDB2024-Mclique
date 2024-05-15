@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/xiaolun/work/motif-src/build",
+  "command": "/usr/bin/g++   -I../include  -g   -std=gnu++11 -o CMakeFiles/motif_src.dir/Graph.cpp.o -c /home/xiaolun/work/motif-src/Graph.cpp",
+  "file": "/home/xiaolun/work/motif-src/Graph.cpp"
+},
+
+{
+  "directory": "/home/xiaolun/work/motif-src/build",
+  "command": "/usr/bin/g++   -I../include  -g   -std=gnu++11 -o CMakeFiles/motif_src.dir/main.cpp.o -c /home/xiaolun/work/motif-src/main.cpp",
+  "file": "/home/xiaolun/work/motif-src/main.cpp"
+},
+
+{
+  "directory": "/home/xiaolun/work/motif-src/build",
+  "command": "/usr/bin/g++   -I../include  -g   -std=gnu++11 -o CMakeFiles/motif_src.dir/SetTrieNode.cpp.o -c /home/xiaolun/work/motif-src/SetTrieNode.cpp",
+  "file": "/home/xiaolun/work/motif-src/SetTrieNode.cpp"
+},
+
+{
+  "directory": "/home/xiaolun/work/motif-src/build",
+  "command": "/usr/bin/g++   -I../include  -g   -std=gnu++11 -o CMakeFiles/motif_src.dir/subgraph_match.cpp.o -c /home/xiaolun/work/motif-src/subgraph_match.cpp",
+  "file": "/home/xiaolun/work/motif-src/subgraph_match.cpp"
+},
+
+{
+  "directory": "/home/xiaolun/work/motif-src/build",
+  "command": "/usr/bin/g++   -I../include  -g   -std=gnu++11 -o CMakeFiles/motif_src.dir/global-variable.cpp.o -c /home/xiaolun/work/motif-src/global-variable.cpp",
+  "file": "/home/xiaolun/work/motif-src/global-variable.cpp"
+},
+
+{
+  "directory": "/home/xiaolun/work/motif-src/build",
+  "command": "/usr/bin/g++   -I../include  -g   -std=gnu++11 -o CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o -c /home/xiaolun/work/motif-src/maximal-motif-clique.cpp",
+  "file": "/home/xiaolun/work/motif-src/maximal-motif-clique.cpp"
+}
+]

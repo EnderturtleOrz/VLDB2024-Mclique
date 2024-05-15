@@ -3,65 +3,49 @@
 #include"small-graph.h"
 #include <map>
 
-void resize_small_graph(Graph &dst){
-	dst.adjList.resize(dst.nodeNum);
-	dst.InAdjList.resize(dst.nodeNum);
-	dst.OutAdjList.resize(dst.nodeNum);
-	dst.labels.assign(dst.nodeNum,-1);
-}
+void get_new_edges(const Graph& src, Graph& dst, int part, int total, map<int, int>& id_map) {
+	int sz = src.edges.size();
+	dst.edgeNum = 0;
+	dst.nodeNum = 0;
 
-map<int,int> new_id_map;
+	dst.adjList.resize(src.nodeNum);
 
-void get_new_id_map(const Graph &src, Graph &dst, int part, int total, set<int> &keep_nodes){
-	new_id_map.clear();
-	int new_id = 0;
-	for(int node_id: keep_nodes){
-		if(new_id_map.find(node_id) == new_id_map.end()){
-			new_id_map[node_id] = new_id ++;
-			if(new_id + 1 >= dst.nodeNum) return;
+	for (int i = 0; i < sz; i = i + 2 * total) {
+		for (int j = 0; j < 2 * part; j += 2) {
+			int edge_id = i + j;
+			if (i + j >= sz) continue;
+			dst.edgeNum += 2;
+
+			int from = src.edges[edge_id].from;
+			int to = src.edges[edge_id].to;
+			if (id_map.find(from) == id_map.end()) id_map[from] = dst.nodeNum++;
+			if (id_map.find(to) == id_map.end()) id_map[to] = dst.nodeNum++;
+
+			from = id_map[from];
+			to = id_map[to];
+
+			dst.adjList[from].insert(to);
+			dst.adjList[to].insert(from);
+			dst.edges.push_back(EDGE(from, to));
+			dst.edges.push_back(EDGE(to, from));
 		}
 	}
-	for(int i = 0; i < src.nodeNum; i = i + total){
-		for(int j = 0; j < part; ++j){
-			int old_id = i + j;
-			if(new_id_map.find(old_id) == new_id_map.end()){
-				new_id_map[old_id] = new_id ++;
-				if(new_id + 1 >= dst.nodeNum) return;
-			}
-		}
-	}
-	dst.nodeNum = new_id_map.size();
+
+	dst.labels.resize(dst.nodeNum);
 }
 
-void get_new_edges(const Graph &src, Graph &dst){
-	for(auto e: src.edges){
-		
-		if(new_id_map.find(e.from) != new_id_map.end() && new_id_map.find(e.to) != new_id_map.end()){
-			if(e.from == 175189) cerr<<e.to<<endl;
-			int new_from = new_id_map[e.from];
-			int new_to   = new_id_map[e.to];
-			dst.adjList[new_from].insert(new_to);
-			dst.edgeNum ++;
-			dst.edges.push_back(EDGE(new_from,new_to));
-		}
-	}
-}
-
-void get_labels(const Graph &src, Graph &dst){
-	for(int old_id = 0; old_id < src.labels.size(); old_id ++){
-		if(new_id_map.find(old_id) != new_id_map.end()){
-			int new_id = new_id_map[old_id];
+void get_labels(const Graph& src, Graph& dst, map<int, int>& id_map) {
+	for (int old_id = 0; old_id < src.labels.size(); old_id++) {
+		if (id_map.find(old_id) != id_map.end()) {
+			int new_id = id_map[old_id];
 			dst.labels[new_id] = src.labels[old_id];
 		}
 	}
 }
 
-void generate_small_graph(const Graph &src, Graph &dst, int part, int total, set<int> &keep_nodes){
+void generate_small_graph(const Graph& src, Graph& dst, int part, int total, set<int>& keep_nodes) {
 	dst.clear();
-	dst.nodeNum = 1ll * src.nodeNum * part / total;
-	dst.edgeNum = 0;
-	resize_small_graph(dst);
-	get_new_id_map(src,dst,part,total,keep_nodes);
-	get_new_edges(src,dst);
-	get_labels(src,dst);
+	map<int, int> id_map;
+	get_new_edges(src, dst, part, total, id_map);
+	get_labels(src, dst, id_map);
 }

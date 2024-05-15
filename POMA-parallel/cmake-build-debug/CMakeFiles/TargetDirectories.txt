@@ -1,0 +1,3 @@
+/Users/hjf/Desktop/Motif/motif-src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hjf/Desktop/Motif/motif-src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hjf/Desktop/Motif/motif-src/cmake-build-debug/CMakeFiles/motif_src.dir

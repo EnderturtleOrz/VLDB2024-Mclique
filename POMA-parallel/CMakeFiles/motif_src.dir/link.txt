@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -std=c++11 -Os -g   CMakeFiles/motif_src.dir/Graph.cpp.o CMakeFiles/motif_src.dir/main.cpp.o CMakeFiles/motif_src.dir/SetTrieNode.cpp.o CMakeFiles/motif_src.dir/subgraph_match.cpp.o CMakeFiles/motif_src.dir/small-graph.cpp.o CMakeFiles/motif_src.dir/global-variable.cpp.o CMakeFiles/motif_src.dir/maximal-motif-clique.cpp.o  -o motif_src 

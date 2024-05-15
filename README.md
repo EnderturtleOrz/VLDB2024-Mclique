@@ -1,3 +1,5 @@
+# **Update: All code has been revised to include random edge scalability, massive knowledge graph construction, and parallel computing.**
+
 # POMA
 
 This repository contains c++ codes and datasets for the paper:
